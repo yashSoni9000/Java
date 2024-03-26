@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Scanner;
 
 public class DisplayNumberInWords {
@@ -19,6 +20,7 @@ public class DisplayNumberInWords {
             finalAns+=a[i];
             finalAns+=" ";
         }
+//        Color a=new Color(111);
         System.out.println(finalAns);
     }
     public static String whatChar(int n){
