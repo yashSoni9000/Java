@@ -7,7 +7,7 @@ public class SubjectUsingConstructor {
 //        ProductConstructor p3= new ProductConstructor("JS01","JavaScript",100,70);
 
         // following is method with array of objects
-        SubjectConstructor sub[]=new SubjectConstructor[3];
+        SubjectConstructor[] sub=new SubjectConstructor[3];
         sub[0]=new SubjectConstructor("J101","Java");
         sub[1]=new SubjectConstructor("S102","JS");
         sub[2]=new SubjectConstructor("P103","Python");
@@ -51,11 +51,11 @@ class SubjectConstructor{
 //
 //    }
     public SubjectConstructor(String i,String n){
-        subID=i; // we can add validations to item no and name but now i am using as it is
+        subID=i; // we can add validations to item no and name, but now I am using as it is
         name=n;
     }
     public SubjectConstructor(String i,String n,int p,int q){
-        subID=i; // we can add validations to item no and name but now i am using as it is
+        subID=i; // we can add validations to item no and name, but now I am using as it is
         name=n;
         maxMarks=p;
         marksObtained=q;
